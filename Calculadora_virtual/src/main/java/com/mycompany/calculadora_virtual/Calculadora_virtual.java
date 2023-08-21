@@ -4,6 +4,8 @@
 
 package com.mycompany.calculadora_virtual;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Carlos Cuenca
@@ -11,6 +13,6 @@ package com.mycompany.calculadora_virtual;
 public class Calculadora_virtual {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner entrada= new Scanner(System.in);
     }
 }
